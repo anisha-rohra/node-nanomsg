@@ -56,6 +56,7 @@
           'cflags_cc': ['-fexceptions'],
         }],
       ],
+      'defines': [ 'NAPI_DISABLE_CPP_EXCEPTIONS' ],
     },
   ],
 }
